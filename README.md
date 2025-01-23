@@ -1,0 +1,3 @@
+# React Router Dom v6 Nested Route Params Issue
+
+This repository demonstrates a bug encountered when using nested routes with parameters in React Router Dom v6.  The issue occurs when navigating to a path containing nested route parameters, which causes an unexpected 404 error.  The solution involves using the `useParams` hook appropriately in the nested route components to access the route parameters.  The bug and the solution are shown side-by-side, demonstrating how to resolve this behavior. 
